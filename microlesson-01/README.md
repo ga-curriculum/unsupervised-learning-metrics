@@ -72,7 +72,7 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 
 5. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
 
-    [DBSCAN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20142538.png)
+   ![DBSCAN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20142538.png)
 
     [Source](https://www.researchgate.net/publication/342141592_A_Review_of_Super-Resolution_Single-Molecule_Localization_Microscopy_Cluster_Analysis_and_Quantification_Methods)
    - Groups data points based on density, identifying dense regions as clusters and low-density points as noise.
