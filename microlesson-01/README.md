@@ -84,7 +84,8 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 
 7. **Gaussian Mixture Models (GMMs)**:
    ![GMMs](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20144821.png)
-[Source(https://www.researchgate.net/publication/342408942_Coverage_Path_Planning_with_Track_Spacing_Adaptation_for_Autonomous_Underwater_Vehicles)
+
+[Source](https://www.researchgate.net/publication/342408942_Coverage_Path_Planning_with_Track_Spacing_Adaptation_for_Autonomous_Underwater_Vehicles)
    - Assumes data is generated from a mixture of Gaussian distributions.
    - Provides probabilistic cluster assignments.
    - **Advantages**:
@@ -97,6 +98,7 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 #### **1.1.2 Dimensionality Reduction**
 
 Dimensionality reduction techniques simplify datasets by reducing the number of features while retaining the most important information. This is crucial when working with high-dimensional data, which can lead to overfitting and high computational costs.
+!DR](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20205138.png)[
 
 **Key Elements of Dimensionality Reduction:**
 - **Feature Extraction:** Combines or transforms features to create a reduced representation.
