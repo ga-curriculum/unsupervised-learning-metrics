@@ -38,8 +38,10 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 
 **Key Clustering Algorithms:**
 
-1. **K-Means Clustering**:
-   - Partitions data into \( k \) clusters based on the distance to cluster centroids.
+1. **K-Means Clustering**
+   ![k-means Clustering](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20115214.png)
+   [Source](https://www.researchgate.net/publication/328743729_Examining_the_Performance_of_K-Means_Clustering_Algorithm)
+   - Partitions data into ( k ) clusters based on the distance to cluster centroids.
    - Iterative process:
      - Assign data points to the nearest cluster centroid.
      - Update centroids based on the mean of assigned points.
@@ -50,6 +52,8 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
      - Sensitive to initialization and outliers.
 
 2. **Hierarchical Clustering**:
+   ![Hierarchical Clustering](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20120339.png)
+   [Source](https://www.researchgate.net/publication/351076785_Hierarchical_Clustering_A_Survey)
    - Builds a tree-like hierarchy of clusters (dendrogram).
    - Two Types:
      - **Agglomerative (Bottom-Up):** Starts with each point as its own cluster and merges clusters iteratively.
@@ -59,7 +63,9 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
    - **Limitations**:
      - Computationally expensive for large datasets.
 
-3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**:
+3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
+   [DBSCAN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20142538.png)
+   [Source](https://www.researchgate.net/publication/342141592_A_Review_of_Super-Resolution_Single-Molecule_Localization_Microscopy_Cluster_Analysis_and_Quantification_Methods)
    - Groups data points based on density, identifying dense regions as clusters and low-density points as noise.
    - **Advantages**:
      - Handles clusters of arbitrary shape.
@@ -68,6 +74,8 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
      - Struggles with clusters of varying densities.
 
 4. **Gaussian Mixture Models (GMMs)**:
+   ![GMMs](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20144821.png)
+[Source(https://www.researchgate.net/publication/342408942_Coverage_Path_Planning_with_Track_Spacing_Adaptation_for_Autonomous_Underwater_Vehicles)
    - Assumes data is generated from a mixture of Gaussian distributions.
    - Provides probabilistic cluster assignments.
    - **Advantages**:
