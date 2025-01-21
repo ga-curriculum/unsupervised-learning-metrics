@@ -56,7 +56,8 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
      - Sensitive to initialization and outliers.
 
 3. **Hierarchical Clustering**:
-   ![Hierarchical Clustering](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20120130.png)
+
+    ![Hierarchical Clustering](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20120130.png)
    
    [Source](https://www.researchgate.net/publication/351076785_Hierarchical_Clustering_A_Survey)
    
