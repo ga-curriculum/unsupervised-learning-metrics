@@ -4,11 +4,6 @@
 </h1>
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
-# **Unsupervised Learning & Metrics**
-## **Learning Objectives**
-
-By the end of this lesson, participants will be able to:
-
 1. Understand the fundamental principles and characteristics of unsupervised learning.
 2. Differentiate between clustering and dimensionality reduction techniques and identify when to use each.
 3. Explore and apply popular clustering algorithms, such as K-Means, Hierarchical Clustering, DBSCAN, and Gaussian Mixture Models.
@@ -17,7 +12,6 @@ By the end of this lesson, participants will be able to:
 6. Apply unsupervised learning techniques to real-world problems, including customer segmentation, anomaly detection, and data visualization.
 7. Interpret and assess the results of dimensionality reduction for feature selection, visualization, and noise reduction in machine learning workflows.
 
----
 
 ## **1. Unsupervised Learning**
 
