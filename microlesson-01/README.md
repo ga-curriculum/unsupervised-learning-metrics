@@ -98,7 +98,7 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 #### **1.1.2 Dimensionality Reduction**
 
 Dimensionality reduction techniques simplify datasets by reducing the number of features while retaining the most important information. This is crucial when working with high-dimensional data, which can lead to overfitting and high computational costs.
-!DR](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20205138.png)[
+![DR](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20205138.png)
 
 **Key Elements of Dimensionality Reduction:**
 - **Feature Extraction:** Combines or transforms features to create a reduced representation.
