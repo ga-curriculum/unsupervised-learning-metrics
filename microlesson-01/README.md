@@ -38,7 +38,9 @@ Clustering is a fundamental unsupervised learning technique that involves groupi
 **Key Clustering Algorithms:**
 
 1. **K-Means Clustering**
+
    ![k-means Clustering](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20115214.png)
+   
    [Source](https://www.researchgate.net/publication/328743729_Examining_the_Performance_of_K-Means_Clustering_Algorithm)
    
    ![ED](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-21%20120339.png)
