@@ -8,9 +8,8 @@
 2. Differentiate between clustering and dimensionality reduction techniques and identify when to use each.
 3. Explore and apply popular clustering algorithms, such as K-Means, Hierarchical Clustering, DBSCAN, and Gaussian Mixture Models.
 4. Understand dimensionality reduction techniques, including Principal Component Analysis (PCA), t-SNE, and autoencoders.
-5. Evaluate the performance of unsupervised learning models using appropriate metrics, such as silhouette score, inertia, and reconstruction error.
-6. Apply unsupervised learning techniques to real-world problems, including customer segmentation, anomaly detection, and data visualization.
-7. Interpret and assess the results of dimensionality reduction for feature selection, visualization, and noise reduction in machine learning workflows.
+5. Understand  the performance evalution  of unsupervised learning models using appropriate metrics, such as silhouette score, inertia, and reconstruction error.
+
 
 
 ## **1. Unsupervised Learning**
