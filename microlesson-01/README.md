@@ -759,14 +759,7 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear dimensionali
 - Experiment with learning rates to find the optimal setting (e.g., start with 200).  
 
 #### c) Run t-SNE  
-- Use libraries like `scikit-learn` or `tensorflow` to apply t-SNE.  
-- Example in Python:  
-  ```python
-  from sklearn.manifold import TSNE
-  tsne = TSNE(n_components=2, perplexity=30, learning_rate=200, random_state=42)
-  reduced_data = tsne.fit_transform(high_dimensional_data)
-
----
+- Use libraries like scikit-learn  or  tensorflow  to apply t-SNE.  
 
 # III. Dimensionality Reduction Techniques  
 ## C. Autoencoders for Dimensionality Reduction  
