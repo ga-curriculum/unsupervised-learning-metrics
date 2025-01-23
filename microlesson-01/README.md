@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Unsupervised Learning & Metrics]</span>
-  <span class="subhead">Microlesson 01</span>
+  <span class="subhead"> </span>
 </h1>
 
 
