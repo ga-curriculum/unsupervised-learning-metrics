@@ -221,7 +221,7 @@ By automating the process of extracting meaningful insights, unsupervised learni
 
 ## Discussion 💡🗣️
 
-Imagine you're working with a retail client that wants to improve customer experience and boost sales by leveraging their transactional data.
+Imagine you're working with a retail client, shop smart, that wants to improve customer experience and boost sales by leveraging their transactional data.
 
 How would you initiate a conversation with them about the potential of unsupervised learning, and how would you explain its value to their business in simple, impactful terms?
 
