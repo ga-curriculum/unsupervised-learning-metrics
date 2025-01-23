@@ -1,24 +1,20 @@
 <h1>
-  <span class="headline">[Unsupervised Learning & Metrics]</span>
+  <span class="headline">Unsupervised Learning & Metrics</span>
   <span class="subhead"> </span>
 </h1>
 
 
 
 ## [Table of Contents](#table-of-content)
----
 ## [I. Introduction to Unsupervised Learning](#i-introduction-to-unsupervised-learning)
 - **[A. Overview of Unsupervised Learning](#a-overview-of-unsupervised-learning)**
   - [1. Definition and Key Characteristics](#1-definition-and-key-characteristics)
   - [2. Differences Between Supervised and Unsupervised Learning](#2-differences-between-supervised-and-unsupervised-learning)
-  - [3. Applications of Unsupervised Learning](#3-applications-of-unsupervised-learning)
 - **[B. Importance of Unsupervised Learning in AI](#b-importance-of-unsupervised-learning-in-ai)**
   - [1. Handling Unlabeled Data](#1-handling-unlabeled-data)
   - [2. Discovering Hidden Patterns](#2-discovering-hidden-patterns)
   - [3. Reducing Manual Labeling Efforts](#3-reducing-manual-labeling-efforts)
-  - [4 Discussion:Do you think Unsupervised Machine Learning is applied for " products placement" in  Super Markets?]
-
----
+  - [4. Discussion:Do you think Unsupervised Machine Learning is applied for " products placement" in  Super Markets?]
 
 ## [II. Clustering Techniques](#ii-clustering-techniques)
 - **[A. K-Means Clustering](#a-k-means-clustering)**
@@ -133,9 +129,7 @@
 
 ---
 
-**Learning objectives:** 
-
-
+### Learning objectives: 
 By the end of this lesson, students will be able to:
 
 - **Explain** the basics of unsupervised learning, including its purpose, differences from supervised learning, and key applications. 
@@ -167,33 +161,21 @@ Examples:
 
 #### 2. Differences Between Supervised and Unsupervised Learning  
 
-| **Aspect**             | **Supervised Learning**                         | **Unsupervised Learning**                       |  
-|-------------------------|------------------------------------------------|------------------------------------------------|  
-| **Data Requirement**    | Requires labeled data (input-output pairs).    | Works with unlabeled data.                     |  
-| **Objective**           | Predict outcomes or classify inputs.           | Discover patterns or structure in data.        |  
-| **Examples**            | Image classification, sentiment analysis.      | Clustering, dimensionality reduction.          |  
-| **Evaluation Metrics**  | Accuracy, precision, recall, F1-score.         | Silhouette score, Davies-Bouldin index.        |  
-| **Algorithm Examples**  | Decision trees, neural networks, SVM.          | K-Means, PCA, t-SNE, DBSCAN.                   |  
+| **Supervised Learning**                         |             | **Unsupervised Learning**                       |  
+|------------------------------------------------|-------------------------|------------------------------------------------|  
+| Requires labeled data (input-output pairs).    | **Data Requirement**    | Works with unlabeled data.                     |  
+| Predict outcomes or classify inputs.           | **Objective**           | Discover patterns or structure in data.        |  
+| Image classification, sentiment analysis.      | **Examples**            | Clustering, dimensionality reduction.          |  
+| Accuracy, precision, recall, F1-score.         | **Evaluation Metrics**  | Silhouette score, Davies-Bouldin index.        |  
+| Decision trees, neural networks, SVM.          | **Algorithm Examples**  | K-Means, PCA, t-SNE, DBSCAN.                   |  
 
-Supervised learning is goal-oriented (e.g., predicting an output), while unsupervised learning is exploratory, aiming to uncover hidden insights.
+>Supervised learning is goal-oriented (e.g., predicting an output), while unsupervised learning is exploratory, aiming to uncover hidden insights.
 
 ---
 
-#### 3. Applications of Unsupervised Learning  
-
-| **Application**           | **Description**                                                               | **Use Case**                                                                                   |
-|----------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **Customer Segmentation**  | Clustering customers based on purchasing behavior or demographics.           | E-commerce platforms grouping users to personalize marketing strategies.                     |
-| **Anomaly Detection**      | Identifying outliers or unusual patterns in data.                            | Detecting fraud in credit card transactions or identifying defective manufacturing processes. |
-| **Data Visualization**     | Reducing data dimensions for effective visualization and interpretation.     | Using t-SNE or PCA to project high-dimensional data into 2D or 3D space.                     |
-| **Recommendation Systems** | Grouping users or items to improve collaborative filtering methods.          | Suggesting movies, books, or products based on user preferences.                             |
-| **Biology and Genetics**   | Identifying patterns in gene expression data or classifying cell types.      | Cluster analysis of DNA sequences to find genetic similarities.                              |
-| **Document Grouping**      | Organizing text documents based on topics or themes.                         | Automatically categorizing articles or research papers.                                                                                                |
-
-
-
-
 ### B. Importance of Unsupervised Learning in AI  
+
+INSERT IMAGE HERE
 
 #### 1. Handling Unlabeled Data  
 Unsupervised learning is particularly valuable because most real-world data is unlabeled. Unlike supervised learning, which relies on extensive labeling efforts, unsupervised learning can analyze raw, unlabeled data to identify meaningful patterns and relationships.  
