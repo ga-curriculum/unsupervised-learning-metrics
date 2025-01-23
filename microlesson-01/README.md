@@ -3,10 +3,11 @@
   <span class="subhead">Microlesson 01</span>
 </h1>
 
-# Table of Contents for "Unsupervised Learning and Metrics"
 
+
+#[Learning Objectives](#learning-objectives)
+# [Table of Contents](#table-of-content)
 ---
-
 ## [I. Introduction to Unsupervised Learning](#i-introduction-to-unsupervised-learning)
 - **[A. Overview of Unsupervised Learning](#a-overview-of-unsupervised-learning)**
   - [1. Definition and Key Characteristics](#1-definition-and-key-characteristics)
@@ -129,15 +130,31 @@
   - [2. Distributed Computing for Large-Scale Clustering](#2-distributed-computing-for-large-scale-clustering)
   - [3. Future Architectures for Real-Time Learning](#3-future-architectures-for-real-time-learning)
 
+---
+
+**Learning objective:** By the end of this lesson, students will be able to:
 
 
+1. **Understand Unsupervised Learning Basics**  
+   - Grasp its purpose, differences from supervised learning, and key applications.  
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
-1. Understand the fundamental principles and characteristics of unsupervised learning.
-2. Differentiate between clustering and dimensionality reduction techniques and identify when to use each.
-3. Explore and apply popular clustering algorithms, such as K-Means, Hierarchical Clustering, DBSCAN, and Gaussian Mixture Models.
-4. Understand dimensionality reduction techniques, including Principal Component Analysis (PCA), t-SNE, and autoencoders.
-5. Understand  the performance evalution  of unsupervised learning models using appropriate metrics, such as silhouette score, inertia, and reconstruction error.
+2. **Learn Clustering Techniques**  
+   - Explore methods like K-Means, DBSCAN, and Hierarchical Clustering and their use cases.  
+
+3. **Apply Dimensionality Reduction**  
+   - Use PCA, t-SNE, and Autoencoders for simplifying data and improving visualization.  
+
+4. **Explore Advanced Clustering**  
+   - Understand advanced methods like GMMs, Spectral Clustering, and Fuzzy C-Means for complex datasets.  
+
+5. **Evaluate Clustering Models**  
+   - Use metrics like Silhouette Score, Davies-Bouldin Index, and Stability for assessing clustering quality.  
+
+6. **Discover Real-World Applications**  
+   - Apply unsupervised learning in customer segmentation, anomaly detection, and recommendation systems.  
+
+7. **Understand Future Trends**  
+   - Learn about self-supervised learning, multi-modal integration, and scalable unsupervised methods for big data.  
 
 # I. Introduction to Unsupervised Learning  
 ## A. Overview of Unsupervised Learning  
