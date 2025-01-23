@@ -5,7 +5,7 @@
 
 
 
-#[Learning Objectives](#learning-objectives)
+# [Learning Objectives](#learning-objectives)
 # [Table of Contents](#table-of-content)
 ---
 ## [I. Introduction to Unsupervised Learning](#i-introduction-to-unsupervised-learning)
