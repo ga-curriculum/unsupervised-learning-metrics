@@ -175,8 +175,7 @@ Examples:
 
 ### B. Importance of Unsupervised Learning in AI  
 
-INSERT IMAGE HERE
-
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/blob/main/images/benefits-unsupervised.png?raw=true)
 #### 1. Handling Unlabeled Data  
 Unsupervised learning is particularly valuable because most real-world data is unlabeled. Unlike supervised learning, which relies on extensive labeling efforts, unsupervised learning can analyze raw, unlabeled data to identify meaningful patterns and relationships.  
 
@@ -220,46 +219,13 @@ By automating the process of extracting meaningful insights, unsupervised learni
 - **IoT Devices**: Detecting anomalous behavior in sensor data without labeled examples.  
 - **Educational Technology**: Grouping students based on learning styles for personalized instruction.  
 
-## Discussion Exercise 🤖📊 
-**Scenario:**
+## Discussion 💡🗣️
 
-"The Coffee Shop" is a popular local cafe that wants to increase sales and customer satisfaction. They have access to transactional data from their point-of-sale system, including customer purchases and order details.
+Imagine you're working with a retail client that wants to improve customer experience and boost sales by leveraging their transactional data.
 
-**Challenge:**
+How would you initiate a conversation with them about the potential of unsupervised learning, and how would you explain its value to their business in simple, impactful terms?
 
-Identify hidden relationships between the items customers order to improve product placement, create targeted promotions, and enhance the overall customer experience.
-
-
-### 1. Application Exploration 🔍
-Select one of these domains:
-- Healthcare
-- E-commerce
-- Manufacturing
-- Social Media
-- Financial Services
-
-Describe:
-- A specific unsupervised learning technique you would apply
-- Potential insights this technique might reveal
-- Potential challenges in implementation
-
-### 2. Technique Comparison 📊
-Compare two unsupervised learning techniques mentioned in the document:
-- Choose K-Means, PCA, t-SNE, or DBSCAN
-- Explain their core differences
-- Discuss scenarios where one would be more effective than the other
-
-### 3. Data Challenges 🧩
-Discuss the challenges of working with unlabeled data:
-- What makes unlabeled data difficult to process?
-- How do unsupervised learning techniques help overcome these challenges?
-- Provide a concrete example from industry or research
-
-### 4. Ethical Implications 🤔
-Explore the ethical considerations of unsupervised learning:
-- What privacy concerns might arise from discovering hidden patterns?
-- How can organizations balance insight generation with individual privacy?
-- Describe a scenario where unsupervised learning could potentially be misused
+---
 
 
 ## II. Clustering Techniques  
