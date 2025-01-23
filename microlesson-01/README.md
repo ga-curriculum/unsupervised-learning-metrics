@@ -136,7 +136,6 @@
 
 By the end of this lesson, students will be able to:
 
-
 1. **Understand Unsupervised Learning Basics**  
    - Grasp its purpose, differences from supervised learning, and key applications.  
 
