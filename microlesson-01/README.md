@@ -293,13 +293,7 @@ To tackle these limitations, several innovative variants have been developed:
 | **Image Compression**        | Reducing image data by clustering pixels into a limited number of representative color groups.      | Reducing the number of colors in an image by clustering pixels into K color groups.           |
 | **Anomaly Detection**        | Identifying unusual data points that differ significantly from the majority of the dataset.         | Detecting outliers in financial transactions by finding data points far from cluster centers. |
 | **Biological Data Analysis** | Grouping biological data to uncover patterns, functional relationships, or genetic similarities.    | Clustering gene expression data to identify functional groups of genes.                       |
-
-
 ---
-
-
-
-
 
 ### B. Hierarchical Clustering  
 
@@ -308,10 +302,10 @@ To tackle these limitations, several innovative variants have been developed:
 [Source](https://www.researchgate.net/publication/351076785_Hierarchical_Clustering_A_Survey)
 
 ---
-#### 1. Agglomerative vs. Divisive Approaches  
+- **Agglomerative vs. Divisive Approaches** 
 Hierarchical clustering is a method of clustering that builds a hierarchy of clusters, represented as a tree-like structure called a dendrogram. It can be broadly categorized into two approaches:  
 
-#### a) **Agglomerative Hierarchical Clustering (Bottom-Up Approach)**  
+- **Agglomerative Hierarchical Clustering (Bottom-Up Approach)**  
 - **Process**:  
   1. Start with each data point as its own cluster.  
   2. Iteratively merge the closest clusters until all data points belong to a single cluster or a desired number of clusters is reached.  
@@ -321,7 +315,7 @@ Hierarchical clustering is a method of clustering that builds a hierarchy of clu
   - **Complete Linkage**: Distance between the farthest points of two clusters.  
   - **Average Linkage**: Average distance between all points in two clusters.  
 
-#### b) **Divisive Hierarchical Clustering (Top-Down Approach)**  
+- **Divisive Hierarchical Clustering (Top-Down Approach)**  
 - **Process**:  
   1. Start with all data points in a single cluster.  
   2. Iteratively split clusters into smaller groups until each data point forms its own cluster or a desired number of clusters is achieved.  
@@ -332,17 +326,17 @@ Hierarchical clustering is a method of clustering that builds a hierarchy of clu
 ### 2. Dendrograms for Visualization  
 A dendrogram is a tree-like diagram that represents the hierarchical structure of clusters. It shows how clusters are merged or split at different levels of the hierarchy, providing an intuitive way to visualize relationships between data points.  
 
-#### Components of a Dendrogram:  
+- Components of a Dendrogram:  
 - **Leaf Nodes**: Represent individual data points.  
 - **Branches**: Represent the merging or splitting of clusters.  
 - **Height**: Represents the distance or dissimilarity between clusters.  
 
-#### How to Use a Dendrogram:  
+- How to Use a Dendrogram:  
 1. Plot the dendrogram using tools like Python’s `scipy.cluster.hierarchy`.  
 2. Cut the dendrogram at a specific height to determine the desired number of clusters.  
 3. Analyze the structure to identify natural groupings in the data.  
 
-#### Advantages of Dendrograms:  
+- **Advantages of Dendrograms** 
 - Provides a visual representation of the clustering process.  
 - Helps determine the optimal number of clusters without predefining K.  
 
@@ -399,15 +393,15 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a cluste
 ### 2. Parameter Selection: Epsilon and Min Points  
 The performance of DBSCAN heavily depends on two parameters: `ε` (Epsilon) and `MinPts` (Minimum Points).  
 
-#### a) **Epsilon (`ε`)**  
+- **Epsilon (`ε`)**  
 - Defines the radius of the neighborhood around a data point.  
 - A smaller `ε` results in smaller, tighter clusters, while a larger `ε` merges clusters and includes more noise.  
 
-#### b) **MinPts**  
+- **MinPts**  
 - Specifies the minimum number of points required to form a dense region (cluster).  
 - A higher `MinPts` value results in fewer clusters and excludes smaller groups.  
 
-#### How to Choose the Parameters:  
+- **How to Choose the Parameters**  
 - Use the **k-distance plot**:  
   1. Compute the distance of each point to its `k`th nearest neighbor (where `k` = `MinPts`).  
   2. Plot these distances in ascending order.  
@@ -418,23 +412,23 @@ The performance of DBSCAN heavily depends on two parameters: `ε` (Epsilon) and 
 
 ### 3. Applications of DBSCAN  
 
-#### a) Anomaly Detection  
+- Anomaly Detection  
 - Identifies noise points (outliers) as anomalies.  
 - **Example**: Detecting fraudulent transactions in banking or unusual network traffic in cybersecurity.  
 
-#### b) Spatial Data Analysis  
+- **Spatial Data Analysis** 
 - Groups data points based on geographic proximity.  
 - **Example**: Identifying hotspots in GPS data, such as areas with high foot traffic.  
 
-#### c) Image Segmentation  
+- **Image Segmentation**  
 - Groups pixels with similar densities to segment images.  
 - **Example**: Segmenting medical images or identifying regions in satellite imagery.  
 
-#### d) Biological Data Analysis  
+- **Biological Data Analysis** 
 - Clusters data with irregular distributions, such as gene expression or cellular data.  
 - **Example**: Identifying subpopulations of cells in single-cell RNA sequencing data.  
 
-#### e) Marketing and Customer Analysis  
+- **Marketing and Customer Analysis**  
 - Groups customers based on purchasing patterns, particularly when the data contains noise or irregularities.  
 - **Example**: Identifying niche customer groups in e-commerce.  
 
@@ -442,13 +436,13 @@ The performance of DBSCAN heavily depends on two parameters: `ε` (Epsilon) and 
 
 ### 4. Advantages and Limitations  
 
-#### a) Advantages of DBSCAN:  
+- **Advantages of DBSCAN**
 - **No Predefined Number of Clusters**: Automatically determines the number of clusters based on data density.  
 - **Handles Arbitrary Cluster Shapes**: Works well for clusters that are not spherical or linearly separable.  
 - **Robust to Noise**: Effectively identifies and handles outliers as noise points.  
 - **Efficient for Large Datasets**: Scales well with medium to large datasets, particularly with index-based implementations.  
 
-#### b) Limitations of DBSCAN:  
+- **Limitations of DBSCAN**
 - **Parameter Sensitivity**: The choice of `ε` and `MinPts` significantly impacts performance.  
 - **Not Scalable for Very Large Datasets**: Computational complexity increases with extremely large datasets.  
 - **Varying Densities**: Struggles with datasets containing clusters of widely varying densities.  
@@ -476,7 +470,6 @@ Discuss the challenges of clustering techniques when dealing with high-dimension
 
 
 ### Discussion Exercise 🔍📊
-
 
 ### 1. Comparative Analysis 🆚
 Choose two clustering techniques from K-Means, Hierarchical Clustering, and DBSCAN:
@@ -518,21 +511,21 @@ Principal Component Analysis (PCA) is a widely used dimensionality reduction tec
 ---
 
 #### 2. Steps to Perform PCA  
-#### a) Standardize the Data  
+- **Standardize the Data** 
 - Scale the data so that each feature has a mean of 0 and a standard deviation of 1. This step ensures that all features are treated equally regardless of their original scales.  
 
-#### b) Compute the Covariance Matrix  
+- **Compute the Covariance Matrix** 
 - Calculate the covariance matrix to understand how features vary with respect to each other.  
 
-#### c) Calculate Eigenvalues and Eigenvectors  
+- **Calculate Eigenvalues and Eigenvectors** 
 - Eigenvalues represent the variance captured by each principal component.  
 - Eigenvectors represent the directions of the principal components.  
 
-#### d) Select the Principal Components  
+- **Select the Principal Components**  
 - Rank the components by their eigenvalues (variance captured).  
 - Select the top components that account for the desired amount of variance (e.g., 90-95%).  
 
-#### e) Transform the Data  
+- **Transform the Data**  
 - Project the data onto the selected principal components to obtain the reduced-dimensional dataset.  
 
 ---
@@ -559,7 +552,6 @@ Principal Component Analysis (PCA) is a widely used dimensionality reduction tec
   - Compresses images by reducing the number of pixels (features) while retaining essential information.  
   - **Example**: Reducing image sizes for faster storage and transmission.  
 
-
 ---
 
 #### 4. Advantages of PCA  
@@ -575,7 +567,6 @@ Principal Component Analysis (PCA) is a widely used dimensionality reduction tec
 
 - 🔇 **Noise Filtering**  
   - Removes noisy features by focusing on components that capture the most variance.  
-
 
 ---
 
@@ -610,17 +601,17 @@ Principal Component Analysis (PCA) is a widely used dimensionality reduction tec
 
 #### 7. Practical Considerations  
 
-#### a) Number of Components  
+- **Number of Components**  
 - Use the **explained variance ratio** to decide how many components to retain. For instance, retain components that capture 90-95% of the total variance.  
 
-#### b) Outlier Sensitivity  
+- **Outlier Sensitivity**  
 - PCA can be influenced by outliers, so preprocessing (e.g., removing outliers) is crucial.  
 
-#### c) Combining with Other Methods  
+- **Combining with Other Methods**  
 - PCA can be combined with clustering techniques like K-Means to improve performance on high-dimensional datasets.  
 
-
 ---
+
 ## III. Dimensionality Reduction Techniques  
  
 ### B. t-Distributed Stochastic Neighbor Embedding (t-SNE)  
@@ -636,19 +627,19 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear dimensionali
 
 ### 2. Use Cases in Clustering and Visualization  
 
-#### a) Data Exploration  
+- **Data Exploration**  
 - t-SNE is widely used for exploring and visualizing high-dimensional datasets by reducing them to 2D or 3D.  
 - **Example**: Visualizing clusters in customer segmentation or gene expression data.  
 
-#### b) Clustering Validation  
+- **Clustering Validation**  
 - Helps evaluate the separability of clusters identified by other algorithms, such as K-Means or DBSCAN.  
 - **Example**: Ensuring that customer segments or disease subtypes are well-separated in the data.  
 
-#### c) Natural Language Processing (NLP)  
+- **Natural Language Processing (NLP)** 
 - Visualizing word embeddings like Word2Vec or GloVe to understand relationships between words or concepts.  
 - **Example**: Grouping synonyms or semantically related words in a 2D plot.  
 
-#### d) Image Data  
+- **Image Data**  
 - Reducing image feature representations (e.g., CNN outputs) for visualization.  
 - **Example**: Grouping handwritten digits or object categories in datasets like MNIST or CIFAR-10.  
 
@@ -660,49 +651,50 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear dimensionali
 
 ### 3. Limitations of t-SNE  
 
-#### a) Computational Complexity  
+- **Computational Complexity**  
 - t-SNE is computationally intensive, especially for large datasets, due to its O(n²) complexity.  
 
-#### b) Parameter Sensitivity  
+- **Parameter Sensitivity**  
 - t-SNE’s results are highly sensitive to hyperparameters like:  
   - **Perplexity**: Balances attention between local and global structures in the data.  
   - **Learning Rate**: Impacts convergence and quality of results.  
   - **Number of Iterations**: Determines how well the algorithm optimizes its objective.  
 
-#### c) Difficulty in Interpreting Global Structure  
+- **Difficulty in Interpreting Global Structure**  
 - While t-SNE preserves local relationships, it may distort global relationships between clusters, making it unsuitable for tasks requiring an understanding of overall data distribution.  
 
-#### d) Non-Deterministic Results  
+- **Non-Deterministic Results**  
 - The algorithm uses random initialization, leading to slightly different visualizations for each run unless a fixed random seed is used.  
 
-#### e) Not Suitable for New Data  
+- **Not Suitable for New Data**  
 - t-SNE does not generalize to new, unseen data. It must be rerun from scratch for every new dataset.  
 
 ---
 
 ### 4. Steps to Apply t-SNE  
 
-#### a) Preprocessing  
+- **Preprocessing**  
 - Normalize or scale the data to ensure all features contribute equally to the distance calculations.  
 
-#### b) Parameter Selection  
+- **Parameter Selection**  
 - Choose the perplexity parameter based on the dataset size (typical range: 5-50).  
 - Experiment with learning rates to find the optimal setting (e.g., start with 200).  
 
-#### c) Run t-SNE  
+- **Run t-SNE**  
 - Use libraries like scikit-learn  or  tensorflow  to apply t-SNE.  
 
 # III. Dimensionality Reduction Techniques  
+
 ## C. Autoencoders for Dimensionality Reduction  
 
 ### 1. Role of Neural Networks in Compression  
 Autoencoders are a type of artificial neural network designed for unsupervised learning. They are used for dimensionality reduction by learning an efficient, compressed representation of data. The network has two main components:  
 
-#### a) Encoder:  
+- **Encoder**  
 - Compresses the input data into a smaller, latent-space representation (bottleneck).  
 - Captures the most significant features of the data while discarding less relevant information.  
 
-#### b) Decoder:  
+- **Decoder**
 - Reconstructs the input data from the latent representation.  
 - Aims to minimize the difference between the input and the reconstructed output.  
 
@@ -710,19 +702,19 @@ Autoencoders are a type of artificial neural network designed for unsupervised l
 
 ### 2. Variants of Autoencoders  
 
-#### a) **Denoising Autoencoders**  
+- **Denoising Autoencoders**  
 - **Purpose**: Learn to reconstruct data from a noisy input by ignoring the noise.  
 - **Application**: Noise reduction in images, audio, or text data.  
 
-#### b) **Sparse Autoencoders**  
+- **Sparse Autoencoders**  
 - **Purpose**: Enforce sparsity in the latent representation by penalizing activations, ensuring only the most important features are retained.  
 - **Application**: Feature selection and anomaly detection.  
 
-#### c) **Variational Autoencoders (VAEs)**  
+- **Variational Autoencoders (VAEs)**  
 - **Purpose**: Learn a probabilistic representation of the input data, generating latent variables that follow a specific distribution.  
 - **Application**: Data generation and semi-supervised learning.  
 
-#### d) **Contractive Autoencoders**  
+-  **Contractive Autoencoders**  
 - **Purpose**: Make the latent representation robust to small changes in the input by penalizing sensitivity to input variations.  
 - **Application**: Robust feature extraction.  
 
@@ -742,23 +734,23 @@ Autoencoders are a type of artificial neural network designed for unsupervised l
 
 ### 4. Applications of Autoencoders for Dimensionality Reduction  
 
-#### a) Image Compression  
+-  Image Compression  
 - Reduces the size of image data while preserving quality.  
 - **Example**: Compressing images for storage or transmission in multimedia systems.  
 
-#### b) Anomaly Detection  
+- Anomaly Detection  
 - Identifies anomalies by reconstructing input data and comparing the reconstruction error.  
 - **Example**: Detecting fraudulent transactions or equipment malfunctions.  
 
-#### c) Feature Extraction for Machine Learning  
+- Feature Extraction for Machine Learning  
 - Reduces the number of features in high-dimensional datasets for downstream tasks.  
 - **Example**: Preprocessing gene expression data for classification models.  
 
-#### d) Generative Modeling  
+- Generative Modeling  
 - Variational Autoencoders (VAEs) generate new data similar to the input data distribution.  
 - **Example**: Synthesizing realistic images or creating new text samples.  
 
-#### e) Noise Reduction  
+- Noise Reduction  
 - Denoising autoencoders remove noise from input data while preserving its structure.  
 - **Example**: Enhancing noisy audio or restoring corrupted images.  
 
@@ -766,32 +758,32 @@ Autoencoders are a type of artificial neural network designed for unsupervised l
 
 ### 5. Advantages of Autoencoders  
 
-#### a) Non-Linear Feature Extraction  
+- Non-Linear Feature Extraction  
 - Unlike PCA, autoencoders can capture complex, non-linear relationships in data.  
 
-#### b) Scalability  
+- Scalability  
 - Efficiently handles large-scale datasets due to parallelization in neural networks.  
 
-#### c) Flexibility  
+- Flexibility  
 - Autoencoders can be adapted to specific tasks using different variants (e.g., sparse, denoising, variational).  
 
-#### d) Customization  
+- Customization  
 - The architecture can be tailored to the data and problem, such as adding convolutional layers for image data.  
 
 ---
 
 ### 6. Limitations of Autoencoders  
 
-#### a) Training Complexity  
+- **Training Complexity**  
 - Require large datasets and significant computational resources for training.  
 
-#### b) Overfitting  
+- **Overfitting** 
 - Can memorize the input data instead of learning generalized features, especially with small datasets.  
 
-#### c) Lack of Interpretability  
+- **Lack of Interpretability**  
 - The learned latent representations are harder to interpret compared to traditional methods like PCA.  
 
-#### d) Parameter Sensitivity  
+- **Parameter Sensitivity**  
 - Performance depends heavily on hyperparameter tuning, such as the number of layers, neurons, and learning rate.  
 
 ---
