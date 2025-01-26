@@ -3,9 +3,7 @@
   <span class="subhead"> </span>
 </h1>
 
-
-
-## [Table of Contents](#table-of-content)
+## [Table of Contents]
 ## [I. Introduction to Unsupervised Learning](#i-introduction-to-unsupervised-learning)
 - **[A. Overview of Unsupervised Learning](#a-overview-of-unsupervised-learning)**
   - [1. Definition and Key Characteristics](#1-definition-and-key-characteristics)
@@ -14,11 +12,9 @@
   - [1. Handling Unlabeled Data](#1-handling-unlabeled-data)
   - [2. Discovering Hidden Patterns](#2-discovering-hidden-patterns)
   - [3. Reducing Manual Labeling Efforts](#3-reducing-manual-labeling-efforts)
-  - [4. Discussion:Do you think Unsupervised Machine Learning is applied for " products placement" in  Super Markets?]
-
+  - [4. Discussion:Do you think Unsupervised Machine Learning is applied for  products placement in  Super Markets?](#4-discussion-do-you-think-unsupervised-machine-learning-is-applied-for-product-placement-in-super-market)
 ## [II. Clustering Techniques](#ii-clustering-techniques)
 - **[A. K-Means Clustering](#a-k-means-clustering)**
-- 
   - [1. Algorithm Overview](#1-algorithm-overview)
   - [2. Choosing the Number of Clusters (Elbow Method)](#2-choosing-the-number-of-clusters-elbow-method)
   - [3. Limitations and Variants](#3-limitations-and-variants)
@@ -30,9 +26,6 @@
   - [1. Understanding Core, Border, and Noise Points](#1-understanding-core-border-and-noise-points)
   - [2. Parameter Selection: Epsilon and Min Points](#2-parameter-selection-epsilon-and-min-points)
   - [3. Applications of DBSCAN](#3-applications-of-dbscan)
-
----
-
 ## [III. Dimensionality Reduction Techniques](#iii-dimensionality-reduction-techniques)
 - **[A. Principal Component Analysis (PCA)](#a-principal-component-analysis-pca)**
   - [1. Concept and Intuition](#1-concept-and-intuition)
@@ -46,9 +39,6 @@
   - [1. Role of Neural Networks in Compression](#1-role-of-neural-networks-in-compression)
   - [2. Variants of Autoencoders (e.g., Denoising Autoencoders)](#2-variants-of-autoencoders-eg-denoising-autoencoders)
   - [3. Comparison with Traditional Methods](#3-comparison-with-traditional-methods)
-
----
-
 ## [IV. Advanced Clustering Techniques](#iv-advanced-clustering-techniques)
 - **[A. Gaussian Mixture Models (GMMs)](#a-gaussian-mixture-models-gmms)**
   - [1. Probabilistic Approach to Clustering](#1-probabilistic-approach-to-clustering)
@@ -62,9 +52,6 @@
   - [1. Introduction to Fuzzy Logic in Clustering](#1-introduction-to-fuzzy-logic-in-clustering)
   - [2. Handling Overlapping Clusters](#2-handling-overlapping-clusters)
   - [3. Use Cases in Pattern Recognition](#3-use-cases-in-pattern-recognition)
-
----
-
 ## [V. Metrics for Evaluating Clustering Models](#v-metrics-for-evaluating-clustering-models)
 - **[A. Internal Metrics](#a-internal-metrics)**
   - [1. Silhouette Score](#1-silhouette-score)
@@ -78,9 +65,6 @@
   - [1. Stability Analysis with Multiple Runs](#1-stability-analysis-with-multiple-runs)
   - [2. Scalability for Large Datasets](#2-scalability-for-large-datasets)
   - [3. Computational Complexity](#3-computational-complexity)
-
----
-
 ## [VI. Metrics for Dimensionality Reduction](#vi-metrics-for-dimensionality-reduction)
 - **[A. Reconstruction Error](#a-reconstruction-error)**
   - [1. Measuring Loss of Information](#1-measuring-loss-of-information)
@@ -94,9 +78,6 @@
   - [1. Evaluating t-SNE Plots](#1-evaluating-t-sne-plots)
   - [2. Cluster Separation in Visualizations](#2-cluster-separation-in-visualizations)
   - [3. Insights from 2D and 3D Projections](#3-insights-from-2d-and-3d-projections)
-
----
-
 ## [VII. Real-World Applications of Unsupervised Learning](#vii-real-world-applications-of-unsupervised-learning)
 - **[A. Customer Segmentation](#a-customer-segmentation)**
   - [1. Clustering in Marketing Strategies](#1-clustering-in-marketing-strategies)
@@ -110,9 +91,6 @@
   - [1. Collaborative Filtering with Clustering](#1-collaborative-filtering-with-clustering)
   - [2. Enhancing User Experience with Grouping](#2-enhancing-user-experience-with-grouping)
   - [3. Reducing Sparsity in User-Item Matrices](#3-reducing-sparsity-in-user-item-matrices)
-
----
-
 ## [VIII. Future Trends in Unsupervised Learning](#viii-future-trends-in-unsupervised-learning)
 - **[A. Self-Supervised Learning](#a-self-supervised-learning)**
   - [1. Bridging the Gap Between Supervised and Unsupervised Learning](#1-bridging-the-gap-between-supervised-and-unsupervised-learning)
@@ -127,7 +105,6 @@
   - [2. Distributed Computing for Large-Scale Clustering](#2-distributed-computing-for-large-scale-clustering)
   - [3. Future Architectures for Real-Time Learning](#3-future-architectures-for-real-time-learning)
 
----
 
 ### Learning objectives: 
 By the end of this lesson, students will be able to:
