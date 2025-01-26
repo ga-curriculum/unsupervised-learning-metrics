@@ -136,7 +136,7 @@ Examples:
 
 ---
 
-#### 2. Differences Between Supervised and Unsupervised Learning  
+#### 2. Differences Between Supervised and Unsupervised Learning (Quick Recap) 
 
 | **Supervised Learning**                         |             | **Unsupervised Learning**                       |  
 |------------------------------------------------|-------------------------|------------------------------------------------|  
