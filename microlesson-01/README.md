@@ -1120,7 +1120,7 @@ Fuzzy C-Means excels in scenarios where clusters overlap or where data points na
 
 ---
 
-# V. Metrics for Evaluating Clustering Models  
+## V. Metrics for Evaluating Clustering Models  
 ## A. Internal Metrics  
 
 ### 1. Silhouette Score  
