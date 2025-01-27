@@ -323,26 +323,7 @@ Hierarchical clustering is a method of clustering that builds a hierarchy of clu
 
 ---
 
-### 2. Dendrograms for Visualization  
-A dendrogram is a tree-like diagram that represents the hierarchical structure of clusters. It shows how clusters are merged or split at different levels of the hierarchy, providing an intuitive way to visualize relationships between data points.  
-
-- Components of a Dendrogram:  
-- **Leaf Nodes**: Represent individual data points.  
-- **Branches**: Represent the merging or splitting of clusters.  
-- **Height**: Represents the distance or dissimilarity between clusters.  
-
-- How to Use a Dendrogram:  
-1. Plot the dendrogram using tools like Python’s `scipy.cluster.hierarchy`.  
-2. Cut the dendrogram at a specific height to determine the desired number of clusters.  
-3. Analyze the structure to identify natural groupings in the data.  
-
-- **Advantages of Dendrograms** 
-- Provides a visual representation of the clustering process.  
-- Helps determine the optimal number of clusters without predefining K.  
-
----
-
-#### 3. Advantages and Drawbacks  
+#### 2. Advantages and Drawbacks  
 
 | **Aspect**                     | **Advantages**                                                                                     | **Drawbacks**                                                                                         |
 |---------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -364,7 +345,6 @@ A dendrogram is a tree-like diagram that represents the hierarchical structure o
 | **Genomics and Bioinformatics**| Clustering genes with similar expression patterns to discover biological functions.            | Identifying functional groups of genes by clustering similar gene expression data.             |
 | **Image Segmentation**         | Dividing an image into distinct regions to aid object detection or scene understanding.        | Segmenting parts of an image to identify objects or differentiate scene components.            |
  
-
 ---
 
 ## C. Density-Based Clustering (DBSCAN)  
