@@ -14,7 +14,7 @@
   - [3. Reducing Manual Labeling Efforts](#3-reducing-manual-labeling-efforts)
   - [4. Discussion:Do you think Unsupervised Machine Learning is applied for  products placement in  Super Markets?](#4-discussion-do-you-think-unsupervised-machine-learning-is-applied-for-product-placement-in-super-market)
 ## [II. Clustering Techniques](#ii-clustering-techniques)
-- **[A. K-Means Clustering](#a-k-means-clustering)**
+- **[A. K-Means Clustering](#a-k-means-clustering )**
   - [1. Algorithm Overview](#1-algorithm-overview)
   - [2. Choosing the Number of Clusters (Elbow Method)](#2-choosing-the-number-of-clusters-elbow-method)
   - [3. Limitations and Variants](#3-limitations-and-variants)
