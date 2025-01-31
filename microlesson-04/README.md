@@ -1,7 +1,8 @@
 <h1>
-  <span class="headline">Advanced Clustering Techniques </span>
-  <span class="subhead"></span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Advanced Clustering Techniques</span>
 </h1>
+
 
 ## A. Gaussian Mixture Models (GMMs)  
 
