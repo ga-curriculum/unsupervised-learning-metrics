@@ -1,7 +1,8 @@
 <h1>
-  <span class="headline">Metrics for Dimensionality Reduction</span>
-  <span class="subhead"></span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Metrics for Dimensionality Reduction</span>
 </h1>
+
 
 ## A. Reconstruction Error  
 
