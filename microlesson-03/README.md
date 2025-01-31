@@ -1,7 +1,8 @@
 <h1>
-  <span class="headline">Dimensionality Reduction Techniques</span>
-  <span class="subhead"></span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Dimensionality Reduction Techniques</span>
 </h1>
+
 
 ## III. Dimensionality Reduction Techniques  
 ### A. Principal Component Analysis (PCA)  
