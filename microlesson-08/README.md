@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Future Trends in Unsupervised Learning </span>
-  <span class="subhead"></span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Future Trends in Unsupervised Learning</span>
 </h1>
 
 ## A. Self-Supervised Learning  
