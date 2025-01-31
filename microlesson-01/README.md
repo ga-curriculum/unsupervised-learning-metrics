@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Introduction to Unsupervised Learning</span>
-  <span class="subhead"> </span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Introduction to Unsupervised Learning</span>
 </h1>
 
 ### A. Overview of Unsupervised Learning  
