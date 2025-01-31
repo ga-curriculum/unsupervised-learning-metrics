@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Metrics for Evaluating Clustering Models</span>
-  <span class="subhead"></span>
+  <span class="headline">Unsupervised Learning Metrics</span>
+  <span class="subhead">Metrics for Evaluating Clustering Models</span>
 </h1>
 
 ## A. Internal Metrics  
