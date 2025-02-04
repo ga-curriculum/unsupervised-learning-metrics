@@ -3,7 +3,7 @@
   <span class="subhead">Dimensionality Reduction Techniques</span>
 </h1>
 
-## Micro‑Lesson 3: Dimensionality Reduction Techniques 🎯
+## Dimensionality Reduction Techniques 🎯
 
 ### A. Principal Component Analysis (PCA) 📉
 
