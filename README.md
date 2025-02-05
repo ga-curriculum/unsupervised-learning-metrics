@@ -5,21 +5,45 @@
 
 ## About
 
-This covers unsupervised learning, focusing on clustering techniques, dimensionality reduction , and evaluation metrics. It explores applications in customer segmentation, anomaly detection, and recommendation systems, while highlighting emerging trends like self-supervised and multi-modal learning for scalable AI solutions.
+This session covers unsupervised learning, focusing on clustering techniques, dimensionality reduction , and evaluation metrics. It explores applications in customer segmentation, anomaly detection, and recommendation systems, while highlighting emerging trends like self-supervised and multi-modal learning for scalable AI solutions.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Introduction to Unsupervised Learning](./microlesson-01/README.md) | 10 min | Describe how unsupervised learning finds patterns in unlabeled data using clustering, dimensionality reduction, and anomaly detection     |
-| [Clustering Techniques](./microlesson-02/README.md) | 20 min | Clustering techniques and their algorithms, parameter selection, advantages, limitations, and real-world applications. |
-| [Dimensionality Reduction Techniques](./microlesson-03/README.md) | 20 min | Dimensionality reduction techniques including Principal Component Analysis (PCA), t-SNE, and Autoencoders, highlighting their applications, advantages, and limitations.|
-| [Advanced Clustering Techniques](./microlesson-04/README.md) | 20 min | Advanced clustering techniques, including Gaussian Mixture Models (GMMs), Spectral Clustering, and Fuzzy C-Means, highlighting their probabilistic, graph-based, and soft clustering approaches, along with their applications and limitations.|
-| [Metrics for Evaluating Clustering Models](./microlesson-05/README.md) | 10 min | Internal, external, stability, and scalability metrics for evaluating clustering quality and performance.|
-| [Metrics for Dimensionality Reduction](./microlesson-06/README.md) | 10 min | Reconstruction error, variance explained, and visual assessment for evaluating dimensionality reduction effectiveness.|
-| [Real-World Applications of Unsupervised Learning](./microlesson-07/README.md) | 10 min (optional) | Real-world applications of unsupervised learning, including customer segmentation, anomaly detection, and recommendation systems.|
-| [Future Trends in Unsupervised Learning](./microlesson-08/README.md) | 10 min (optional) | Future trends in unsupervised learning, including self-supervised learning, multi-modal learning, and scalable methods|
+| [Setup](./setup/README.md)                          | 2 min | Set up the development environment. |
+| [Introduction to Unsupervised Learning](./introduction-to-unsupervised-learning/README.md) | 10 min | Describe unsupervised learning, it's characteristics and contextual relevance.|
+| [Clustering Techniques](./clustering-techniques/README.md) | 20 min | Describe and implement fundamental clustering techniques such as K‑Means Clustering, Hierarchical Clustering and DBSCAN. |
+| [Dimensionality Reduction Techniques](./dimensionality-reduction-techniques/README.md) | 20 min | Describe and implement dimensionality reduction techniques such as PCA, t-SNE, and Autoencoders.|
+| [Advanced Clustering Techniques](./advanced-clustering-techniques/README.md) | 20 min | Describe advanced clustering techniques such as GMMs, Spectral Clustering and Fuzzy C-Means.|
+| [Metrics for Evaluating Clustering Models](./metrics-for-evaluating-clustering-models/README.md) | 10 min | Describe internal, external, stability, and scalability metrics for evaluating clustering quality and performance.|
+| [Metrics for Dimensionality Reduction](./metrics-for-dimensionality-reduction/README.md) | 10 min | Utilize reconstruction error, explained variance ratio, and visual assessment for evaluating dimensionality reduction effectiveness.|
+| [Real-World Applications of Unsupervised Learning](./real-world-applications-of-unsupervised-learning/README.md) | 10 min (optional) | Describe some of the real-world applications of unsupervised learning such as customer segmentation, anomaly detection, and recommendation systems.|
+| [Future Trends in Unsupervised Learning](./future-trends-in-unsupervised-learning/README.md) | 10 min (optional) | Describe future trends in unsupervised learning, including self-supervised learning, multi-modal learning, and scalable methods|
 | **Total content**                                   | 90 min |                                     |
 
+## References
 
+📖 [Reference Materials](./references/README.md)
+
+## Internal
+
+### Prerequisites
+- Intro to neural network + Overview of AI Architectures
+
+
+### Course landing pages
+
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/canvas-landing-pages/fallback.html)
+
+### Resources
+
+✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
+
+🎥 [Video Hub](./internal-resources/video-hub.md)
+
+🏗️ [Release Notes](./internal-resources/release-notes.md)
+
+---
+
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

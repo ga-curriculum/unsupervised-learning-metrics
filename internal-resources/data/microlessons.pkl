@@ -9,23 +9,58 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+introductionToUnsupervisedLearning = new Template.Microlesson {
+  friendlyName = "Introduction to Unsupervised Learning"
+  dirName = "introduction-to-unsupervised-learning"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+clusteringTechniques = new Template.Microlesson {
+  friendlyName = "Clustering Techniques"
+  dirName = "clustering-techniques"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+dimensionalityReductionTechniques = new Template.Microlesson {
+  friendlyName = "Dimensionality Reduction Techniques"
+  dirName = "dimensionality-reduction-techniques"
+  type = "Content"
+  videoUrl = ""
+}
+
+advancedClusteringTechniques = new Template.Microlesson {
+  friendlyName = "Advanced Clustering Techniques"
+  dirName = "advanced-clustering-techniques"
+  type = "Content"
+  videoUrl = ""
+}
+
+metricsForEvaluatingClusteringModels = new Template.Microlesson {
+  friendlyName = "Metrics for Evaluating Clustering Models"
+  dirName = "metrics-for-evaluating-clustering-models"
+  type = "Content"
+  videoUrl = ""
+}
+
+metricsForDimensionalityReduction = new Template.Microlesson {
+  friendlyName = "Metrics for Dimensionality Reduction"
+  dirName = "metrics-for-dimensionality-reduction"
+  type = "Content"
+  videoUrl = ""
+}
+
+realWorldApplicationsOfUnsupervisedLearning = new Template.Microlesson {
+  friendlyName = "Real-World Applications of Unsupervised Learning"
+  dirName = "real-world-applications-of-unsupervised-learning"
+  type = "Content"
+  videoUrl = ""
+}
+
+futureTrendsInUnsupervisedLearning = new Template.Microlesson {
+  friendlyName = "Future Trends in Unsupervised Learning"
+  dirName = "future-trends-in-unsupervised-learning"
   type = "Content"
   videoUrl = ""
 }
