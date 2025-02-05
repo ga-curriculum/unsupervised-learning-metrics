@@ -12,7 +12,7 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Unsupervised Learning & Metrics"
   // This must match the repo name as it appears on GitHub exactly
   name = "unsupervised-learning-metrics"
   type = "Lesson"
