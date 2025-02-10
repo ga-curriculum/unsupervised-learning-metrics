@@ -6,10 +6,10 @@
 **Learning objective:** By the end of this lesson, you'll be able to describe internal, external, stability, and scalability metrics for evaluating clustering quality and performance.
 
 ## An Introduction to Evaluating Clustering Models
-Clustering is used by many programmes, including segmentation, pattern recognition, search engines like Google, and extra. But many clustering methods do not tell us what the “optimal” number of clusters is. Thus, it is on us to determine the “optimal” number of clusters and their quality. Otherwise, our clustering might lead to wrong decisions. Our clustering algorithm must give us clusters with a **high intra-cluster (within-cluster) similarity** and a **low inter-cluster (between-cluster) similarity**. In other words, we want dense clusters with a great distance between clusters.
+Clustering is used by many programmes, including segmentation, pattern recognition, search engines like Google, and extra. But many clustering methods do not tell us what the "optimal" number of clusters is. Thus, it is on us to determine the "optimal" number of clusters and their quality. Otherwise, our clustering might lead to wrong decisions. Our clustering algorithm must give us clusters with a **high intra-cluster (within-cluster) similarity** and a **low inter-cluster (between-cluster) similarity**. In other words, we want dense clusters with a great distance between clusters.
 
 ## Internal Metrics
-Internal metrics are crucial when ground truth labels are not available. They provide a way to assess the quality of clustering based on the attributes of the data itself. The internal cluster metrics can be used to determine the “optimal” number of clusters.
+Internal metrics are crucial when ground truth labels are not available. They provide a way to assess the quality of clustering based on the attributes of the data itself. The internal cluster metrics can be used to determine the "optimal" number of clusters.
 
 ### 1. Silhouette Score
 The Silhouette Score measures how similar a data point is to its own cluster compared to other clusters.
@@ -56,6 +56,35 @@ Helps compare different clustering algorithms or parameter choices.
 from sklearn.metrics import davies_bouldin_score   
 dbi = davies_bouldin_score(data, kmeans.labels_)   
 print("Davies‑Bouldin Index: ", dbi)
+```
+
+
+### 3. Jaccard Index
+The Jaccard Index measures similarity between clusters by comparing the overlap of data points. It is particularly useful for evaluating clustering results with different sizes and shapes.
+
+#### Calculation
+The Jaccard Index is calculated as the size of the intersection divided by the size of the union of two sets:
+
+J(A,B) = |A ∩ B| / |A ∪ B|
+
+#### Interpretation
+- **1.0:** Perfect similarity between clusters.
+- **0.0:** No overlap between clusters.
+- Values between 0 and 1 indicate partial overlap.
+
+#### Usage
+We can use the Jaccard Index to:
+- Compare clustering results from different algorithms.
+- Evaluate cluster stability across different samples.
+- Assess cluster quality when ground truth is available.
+
+#### Implementation Example
+```python
+from sklearn.metrics import jaccard_score
+
+# Calculate Jaccard Index
+jaccard = jaccard_score(true_labels, predicted_labels, average='weighted')
+print("Jaccard Index:", jaccard)
 ```
 
 
@@ -106,7 +135,7 @@ Stability analysis assesses whether the clustering solution is robust to variati
 
 ## Scalability Metrics
 Scalability metrics are critical when choosing clustering algorithms for real‑time applications or big data scenarios.
-- **Time Complexity:** How the algorithm’s runtime increases with the number of data points.
+- **Time Complexity:** How the algorithm's runtime increases with the number of data points.
 - **Memory Usage:** The amount of memory required to store the data and intermediate computations.
 
 ## 🗣️ **Discussion Activity**
