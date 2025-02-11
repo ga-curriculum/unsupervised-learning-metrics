@@ -8,6 +8,10 @@
 ## **Self‑Supervised Learning (SSL)**: Bridging Supervised and Unsupervised Learning
 SSL leverages unlabeled data by creating pseudo‑labels through pretext tasks (e.g., predicting missing parts of data).  
 
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/assets/21623/ed8985f4-0736-4f87-a9e3-3bdbf77b8ecf)
+
+[Source](https://www.geeksforgeeks.org/self-supervised-learning-ssl)
+
 ### Key Characteristics
 - Learns representations that can be fine‑tuned for downstream tasks.
 - Reduces the dependency on large labeled datasets.
@@ -21,16 +25,19 @@ SSL leverages unlabeled data by creating pseudo‑labels through pretext tasks (
 - Improved generalization and robustness.
 - Lower labeling costs.
 
-### Challenges:**  
+### Challenges:  
 - High computational requirements.
 - Fine‑tuning on specific tasks may still need some labeled data.
 
-### Opportunities:**  
+### Opportunities: 
 - Development of lightweight SSL models.
 - Expansion into new domains such as robotics or multi‑modal learning.
 
 ## **Multi‑Modal Unsupervised Learning**: Integrating Diverse Data
 Multi‑modal unsupervised learning combines text, image, audio, and video data to create joint representations.
+
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/assets/21623/bdc1e74e-bd06-48e2-83c6-529cef68ca91)
+[Source](https://medium.com/@ritesh.ratti/an-introduction-to-multimodal-machine-learning-36e71b450cf2)
 
 ### Key Characteristics
 - **Cross‑Modal Learning:** Aligns and integrates features across different data types.
