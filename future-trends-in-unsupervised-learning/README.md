@@ -8,7 +8,7 @@
 ## **Self‑Supervised Learning (SSL)**: Bridging Supervised and Unsupervised Learning
 SSL leverages unlabeled data by creating pseudo‑labels through pretext tasks (e.g., predicting missing parts of data).  
 
-![image](https://git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/assets/21623/ed8985f4-0736-4f87-a9e3-3bdbf77b8ecf)
+![Semi-Supervised](https://git.generalassemb.ly/modular-curriculum-all-courses/unsupervised-learning-metrics/assets/21623/d53375ba-d007-4a98-b386-7cbe540dc85a)
 
 [Source](https://www.geeksforgeeks.org/self-supervised-learning-ssl)
 
