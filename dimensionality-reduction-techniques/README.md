@@ -69,9 +69,3 @@ Autoencoders are **neural networks** that learn compressed representations of da
 - Feature extraction  
 - Anomaly detection  
 - Image compression
-
-## 🗣️ **Discussion Activity**: Hands‑On Dimensionality Reduction Activity
-1. Using a sample high‑dimensional dataset (e.g., handwritten digits), apply **PCA** to reduce dimensions and visualize the results.  
-2. In small groups, compare the **PCA plot** with a **t‑SNE plot** of the same data.  
-3. Discuss the advantages and disadvantages of **linear** vs. **non‑linear** dimensionality reduction methods.  
-4. Optionally, explore an **autoencoder model** (using a tool like **TensorFlow** or **PyTorch**) and compare its **reconstruction error** to the variance explained by **PCA**.
