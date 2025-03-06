@@ -5,62 +5,34 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 setup = new Template.Microlesson {
   friendlyName = "Setup"
   dirName = "setup"
-  type = "Content"
+  type = "Setup"
   videoUrl = ""
 }
 
-introductionToUnsupervisedLearning = new Template.Microlesson {
+microlesson01 = new Template.Microlesson {
   friendlyName = "Introduction to Unsupervised Learning"
   dirName = "introduction-to-unsupervised-learning"
   type = "Content"
   videoUrl = ""
 }
 
-clusteringTechniques = new Template.Microlesson {
-  friendlyName = "Clustering Techniques"
-  dirName = "clustering-techniques"
+microlesson02 = new Template.Microlesson {
+  friendlyName = "Clustering Techniques & Evaluation"
+  dirName = "clustering-techniques-and-evaluation"
   type = "Content"
   videoUrl = ""
 }
 
-dimensionalityReductionTechniques = new Template.Microlesson {
-  friendlyName = "Dimensionality Reduction Techniques"
-  dirName = "dimensionality-reduction-techniques"
+microlesson03 = new Template.Microlesson {
+  friendlyName = "Dimensionality Reduction (Methods + Metrics)"
+  dirName = "dimensionality-reduction-methods-metrics"
   type = "Content"
   videoUrl = ""
 }
 
-advancedClusteringTechniques = new Template.Microlesson {
-  friendlyName = "Advanced Clustering Techniques"
-  dirName = "advanced-clustering-techniques"
-  type = "Content"
-  videoUrl = ""
-}
-
-metricsForEvaluatingClusteringModels = new Template.Microlesson {
-  friendlyName = "Metrics for Evaluating Clustering Models"
-  dirName = "metrics-for-evaluating-clustering-models"
-  type = "Content"
-  videoUrl = ""
-}
-
-metricsForDimensionalityReduction = new Template.Microlesson {
-  friendlyName = "Metrics for Dimensionality Reduction"
-  dirName = "metrics-for-dimensionality-reduction"
-  type = "Content"
-  videoUrl = ""
-}
-
-realWorldApplicationsOfUnsupervisedLearning = new Template.Microlesson {
-  friendlyName = "Real-World Applications of Unsupervised Learning"
+microlesson04 = new Template.Microlesson {
+  friendlyName = "Real-World Applications: Recommendation Systems"
   dirName = "real-world-applications-of-unsupervised-learning"
-  type = "Content"
-  videoUrl = ""
-}
-
-futureTrendsInUnsupervisedLearning = new Template.Microlesson {
-  friendlyName = "Future Trends in Unsupervised Learning"
-  dirName = "future-trends-in-unsupervised-learning"
   type = "Content"
   videoUrl = ""
 }
