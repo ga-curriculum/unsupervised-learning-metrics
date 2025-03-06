@@ -22,6 +22,7 @@ By the end of this lesson, students will be able to:
 Unsupervised learning finds **hidden patterns or structures** in unlabeled data. Unlike supervised learning, it doesn't rely on labeled datasets but instead explores the inherent structure of the data.
 
 ### **Supervised vs. Unsupervised Learning**
+
 | Feature | Supervised Learning | Unsupervised Learning |
 |---------|---------------------|---------------------|
 | Data | Labeled | Unlabeled |
