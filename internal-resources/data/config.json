@@ -22,12 +22,12 @@
         {
           "friendlyName": "Setup",
           "dirName": "setup",
-          "type": "Content",
+          "type": "Setup",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 2
         },
         {
           "friendlyName": "Introduction to Unsupervised Learning",
@@ -37,77 +37,37 @@
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 10
         },
         {
-          "friendlyName": "Clustering Techniques",
-          "dirName": "clustering-techniques",
+          "friendlyName": "Clustering Techniques & Evaluation",
+          "dirName": "clustering-techniques-and-evaluation",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 30
         },
         {
-          "friendlyName": "Dimensionality Reduction Techniques",
-          "dirName": "dimensionality-reduction-techniques",
+          "friendlyName": "Dimensionality Reduction (Methods + Metrics)",
+          "dirName": "dimensionality-reduction-methods-metrics",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 25
         },
         {
-          "friendlyName": "Advanced Clustering Techniques",
-          "dirName": "advanced-clustering-techniques",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Metrics for Evaluating Clustering Models",
-          "dirName": "metrics-for-evaluating-clustering-models",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Metrics for Dimensionality Reduction",
-          "dirName": "metrics-for-dimensionality-reduction",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Real-World Applications of Unsupervised Learning",
+          "friendlyName": "Real-World Applications: Recommendation Systems",
           "dirName": "real-world-applications-of-unsupervised-learning",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Future Trends in Unsupervised Learning",
-          "dirName": "future-trends-in-unsupervised-learning",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 25
         }
       ],
       "isHeaderShown": true,
