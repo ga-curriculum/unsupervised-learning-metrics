@@ -30,7 +30,7 @@ Unsupervised learning finds **hidden patterns or structures** in unlabeled data.
 | Common Uses | Spam detection, price prediction | Customer segmentation, anomaly detection |
 
 <div class="mermaid">
-graph TD
+graph LR
   A[Machine Learning] --> B[Supervised Learning]
   A --> C[Unsupervised Learning]
   B --> D["Labeled Data"]
