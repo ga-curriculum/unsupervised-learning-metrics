@@ -6,7 +6,9 @@
 # Dimensionality Reduction: Methods & Metrics
 
 ## Learning Objectives
+
 By the end of this lesson, students will be able to:
+
 - Implement dimensionality reduction techniques (PCA, t-SNE).
 - Evaluate dimensionality reduction using appropriate metrics.
 - Explain practical uses of dimensionality reduction.
@@ -14,6 +16,7 @@ By the end of this lesson, students will be able to:
 ---
 
 ## What is Dimensionality Reduction?
+
 Dimensionality reduction simplifies datasets by reducing the number of features while preserving important patterns. It aids visualization, reduces computational costs, and can improve model performance.
 
 <div class="mermaid">
@@ -62,6 +65,7 @@ plt.show()
 t-SNE (t-distributed Stochastic Neighbor Embedding) is ideal for visualizing data by preserving local structures and relationships.
 
 ### Example
+
 ```python
 from sklearn.manifold import TSNE
 
@@ -81,15 +85,46 @@ plt.show()
 
 ---
 
+## Modern Alternative: UMAP
+
+UMAP (Uniform Manifold Approximation and Projection) is a more recent dimensionality reduction technique that addresses some limitations of t-SNE while offering additional benefits:
+
+- **Faster computation** than t-SNE, especially for large datasets
+- Better **preservation of global structure** while maintaining local relationships
+- **Theoretical foundation** in manifold learning and topological data analysis
+- Supports **supervised** and **semi-supervised** learning
+
+### Example
+
+```python
+from umap import UMAP
+
+# Apply UMAP
+umap = UMAP(n_components=2, random_state=42)
+umap_data = umap.fit_transform(data)
+
+# Visualization
+plt.scatter(umap_data[:, 0], umap_data[:, 1], cmap='viridis')
+plt.title('UMAP Dimensionality Reduction')
+plt.xlabel('UMAP Component 1')
+plt.ylabel('UMAP Component 2')
+plt.show()
+```
+
+**When to Use UMAP:**
+
+- Large-scale data visualization
+- When computational speed is important
+- When both local and global structure preservation matter
+- For creating features for downstream machine learning tasks
+
+---
+
 ## Additional Metrics
+
 - **Explained Variance Ratio:** Proportion of variance explained by PCA components.
 - **Reconstruction Error:** Accuracy measure often used with Autoencoders.
 
 ## Reflect & Discuss
+
 Consider your current or past projects. When might dimensionality reduction add the most value to your analysis?
-
-
-
-
-
-
