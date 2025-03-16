@@ -3,7 +3,6 @@
   <span class="subhead">Real-World Applications of Unsupervised Learning</span>
 </h1>
 
-
 ## Learning Objectives
 
 By the end of this lesson, you will be able to:
@@ -20,7 +19,7 @@ Recommendation systems power many digital platforms—like streaming services (N
 
 ### Why Unsupervised Learning?
 
-- Preferences often aren’t labeled (e.g., "User A loves item X").
+- Preferences often aren't labeled (e.g., "User A loves item X").
 - Clustering can reveal patterns of similarity and group users with overlapping tastes.
 
 ---
@@ -90,20 +89,25 @@ print("Recommended items (highest avg rating first):", recommended_items)
 
 1. **ratings**: Static dataset of user-item preference scores.
 2. **KMeans**: Clusters users based on rating similarities.
-3. **similar\_users**: Extracts users in the same cluster as the target user.
-4. **avg\_ratings**: Computes mean ratings across those users.
-5. **recommended\_items**: Orders items by the highest average rating first.
+3. **similar_users**: Extracts users in the same cluster as the target user.
+4. **avg_ratings**: Computes mean ratings across those users.
+5. **recommended_items**: Orders items by the highest average rating first.
 
 ---
 
 ## Discussion & Reflection
 
 - **How might this type of recommendation system boost user engagement or sales in a real-world platform?**
-- **What challenges could arise when scaling a recommendation system like this? How can we counteract those chalenges?**
+- **What challenges could arise when scaling a recommendation system like this? How can we counteract those challenges?**
 
 ### Challenges to Consider
 
 - **Data Sparsity**: Real-world user-item matrices can be huge and mostly empty (e.g., a user might only rate a few items).
+- **Cold-Start Problem**: New users or items lack historical data, making initial recommendations difficult. Solutions include:
+  - Content-based filtering for new items using their features
+  - Demographic data for new users
+  - Interactive questionnaires for preference gathering
+  - Popular/trending items as default recommendations
 - **Scalability**: Larger datasets (millions of users/items) require more advanced methods (e.g., matrix factorization).
 - **Privacy & Ethics**: Storing user data responsibly is crucial. Consider the balance between personalization and data security.
 
@@ -114,5 +118,3 @@ print("Recommended items (highest avg rating first):", recommended_items)
 1. **Clustering for Recommendations**: We used unsupervised learning (K-Means) to group users and make item suggestions.
 2. **Real-World Considerations**: Issues like sparsity, scale, and user privacy heavily influence real implementations.
 3. **Further Exploration**: Advanced methods like **Matrix Factorization** and **Autoencoders** can enhance recommendation systems.
-
-
