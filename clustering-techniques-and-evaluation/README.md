@@ -61,7 +61,7 @@ Try and guess what would happen if you grouped into 5 clusters instead of 3.
 ## DBSCAN: Density-Based Clustering
 DBSCAN clusters data based on density, effectively handling noise and non-linear cluster shapes.
 
-Since we have been generating random data, let's see if DBSCAN performs differently that K-Means!
+Since we have been generating random data, let's see if DBSCAN performs differently than K-Means!
 
 ### Hands-On DBSCAN Example:
 ```python
