@@ -8,14 +8,14 @@
 By the end of this lesson, you will be able to:
 
 - Implement a basic recommendation system using K-Means.
-- Explain how unsupervised learning fuels personalization in recommendation engines.
-- Discuss real-world use cases and challenges of recommendation systems.
+- Explain how unsupervised learning supports personalization in recommendation engines.
+- Evaluate real-world use cases and challenges of recommendation systems.
 
 ---
 
 ## Recommendation Systems
 
-Recommendation systems power many digital platforms—like streaming services (Netflix, Spotify) and e-commerce sites (Amazon). They help users find relevant content by leveraging patterns in **unlabeled** user interactions.
+Recommendation systems power many digital platforms, such as streaming services (Netflix, Spotify) and e-commerce sites (Amazon). They help users find relevant content by leveraging patterns in **unlabeled** user interactions.
 
 ### Why Unsupervised Learning?
 
@@ -28,7 +28,7 @@ Recommendation systems power many digital platforms—like streaming services (N
 
 ### Scenario
 
-Imagine you're creating a product recommendation system for an online store. You have a matrix of user ratings (or interactions) for various items. Clustering will help find similar users and recommend new items.
+Imagine you're designing a product recommendation system for an online store. You have a matrix of user ratings (or interactions) for various items. Clustering will help find similar users and recommend new items.
 
 ### Provided User-Item Data
 
@@ -115,6 +115,6 @@ print("Recommended items (highest avg rating first):", recommended_items)
 
 ## Key Takeaways
 
-1. **Clustering for Recommendations**: We used unsupervised learning (K-Means) to group users and make item suggestions.
+1. **Clustering for Recommendations**: Unsupervised learning (K-Means) can group users based on behavioral similarity to generate recommendations.
 2. **Real-World Considerations**: Issues like sparsity, scale, and user privacy heavily influence real implementations.
 3. **Further Exploration**: Advanced methods like **Matrix Factorization** and **Autoencoders** can enhance recommendation systems.
