@@ -7,19 +7,12 @@
 By the end of this lesson, students will be able to:
 - Define unsupervised learning and its key characteristics.
 - Differentiate between supervised and unsupervised learning.
-- Identify common techniques: clustering and dimensionality reduction.
+- Identify common unsupervised learning techniques, including clustering and dimensionality reduction.
 
 ---
 
-# Introduction to Unsupervised Learning
-
-## Learning Objective
-By the end of this lesson, students will be able to:
-- Define unsupervised learning and its key characteristics.
-- Recognize practical applications of unsupervised learning.
-
 ## What is Unsupervised Learning?
-Unsupervised learning finds **hidden patterns or structures** in unlabeled data. Unlike supervised learning, it doesn't rely on labeled datasets but instead explores the inherent structure of the data.
+Unsupervised learning finds **hidden patterns or structures** in unlabeled data. Unlike supervised learning, it doesn't rely on labeled datasets but instead explores the inherent structure of the data to generate insights.
 
 ### **Supervised vs. Unsupervised Learning**
 
@@ -54,7 +47,7 @@ Reduces dataset complexity while **preserving meaningful relationships**.
 - **Common Algorithms:** PCA, t-SNE, Autoencoders.
 
 ## Let's try it out! Basic Clustering with K-Means
-Let's practically understand clustering by segmenting customers based on purchasing habits.
+Let's practically understand clustering by segmenting customers based on purchasing behavior.
 
 
 ```python
@@ -81,7 +74,7 @@ plt.show()
 
 ```
 
-**Discuss!** Imagine you are working with a marketing agency. How might a marketer use this segmentation data in practice?
+**Discuss!** Imagine you are working with a marketing agency. How might a marketer use this segmentation data to design targeted campaigns?
 
 ## Think About Your Role...
 Think about clients you have worked with in the past, or are currently working with. 
