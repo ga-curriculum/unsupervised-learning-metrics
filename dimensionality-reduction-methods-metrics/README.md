@@ -9,7 +9,7 @@
 
 By the end of this lesson, students will be able to:
 
-- Implement dimensionality reduction techniques (PCA, t-SNE).
+- Apply dimensionality reduction techniques (PCA, t-SNE).
 - Evaluate dimensionality reduction using appropriate metrics.
 - Explain practical uses of dimensionality reduction.
 
@@ -17,7 +17,7 @@ By the end of this lesson, students will be able to:
 
 ## What is Dimensionality Reduction?
 
-Dimensionality reduction simplifies datasets by reducing the number of features while preserving important patterns. It aids visualization, reduces computational costs, and can improve model performance.
+Dimensionality reduction simplifies datasets by reducing the number of features while preserving important patterns. It is commonly used to support visualization, reduces computational costs, and improve model performance.
 
 <div class="mermaid">
 graph TD
@@ -87,7 +87,7 @@ plt.show()
 
 ## Modern Alternative: UMAP
 
-UMAP (Uniform Manifold Approximation and Projection) is a more recent dimensionality reduction technique that addresses some limitations of t-SNE while offering additional benefits:
+UMAP (Uniform Manifold Approximation and Projection) is a modern dimensionality reduction technique that addresses some limitations of t-SNE while offering additional benefits:
 
 - **Faster computation** than t-SNE, especially for large datasets
 - Better **preservation of global structure** while maintaining local relationships
@@ -127,4 +127,4 @@ plt.show()
 
 ## Reflect & Discuss
 
-Consider your current or past projects. When might dimensionality reduction add the most value to your analysis?
+Reflect on current or past projects. When might dimensionality reduction add the most value to your analysis?
