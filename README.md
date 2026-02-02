@@ -5,7 +5,7 @@
 
 ## About
 
-This session covers unsupervised learning, focusing on clustering techniques, dimensionality reduction, and evaluation metrics. It explores applications in customer segmentation, anomaly detection, and recommendation systems. Students will implement clustering methods, analyze dimensionality reduction techniques, and build a simple recommendation system using unsupervised learning.
+This session covers unsupervised learning, with a focus on clustering techniques, dimensionality reduction, and evaluation metrics. Students will explore real-world applications such as customer segmentation, anomaly detection, and recommendation systems. Through hands-on exercises, they will implement core unsupervised techniques, evaluate model quality using appropriate metrics, and apply these methods to practical business scenarios.
 
 ## Content
 
