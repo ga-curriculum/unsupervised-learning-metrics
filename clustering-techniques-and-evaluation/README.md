@@ -9,7 +9,7 @@
 By the end of this lesson, students will be able to:
 - Implement clustering algorithms (K-Means, DBSCAN).
 - Apply key evaluation metrics for clustering (silhouette score).
-- Differentiate clustering methods based on their strengths and weaknesses.
+- Compare clustering methods and select an appropriate method based on their strengths and weaknesses.
 
 ---
 
@@ -52,7 +52,7 @@ plt.show()
 
 ### Think About It...
 
-Try and guess what would happen if you grouped into 5 clusters instead of 3.
+What do you expect to happen if you increase the number of clusters from 3 to 5?
   > `KMeans(n_clusters=3...` -> `KMeans(n_clusters=5...` 
 
 
@@ -61,7 +61,7 @@ Try and guess what would happen if you grouped into 5 clusters instead of 3.
 ## DBSCAN: Density-Based Clustering
 DBSCAN clusters data based on density, effectively handling noise and non-linear cluster shapes.
 
-Since we have been generating random data, let's see if DBSCAN performs differently than K-Means!
+As we have been generating random data, let's expplore how DBSCAN behaves compares to K-Means.
 
 ### Hands-On DBSCAN Example:
 ```python
@@ -103,8 +103,8 @@ Compare your results:
 
 ## Key Takeaways
 - K-Means is effective for spherical, distinct clusters; DBSCAN excels with irregular clusters and noise.
-- The silhouette score is one of the most common ways to evaluate clustering quality.
-- Choosing the right algorithm depends on data characteristics.
+- The silhouette score is one of the most common ways to measure clustering quality.
+- Selecting the right algorithm depends on data characteristics.
 
 ---
 
